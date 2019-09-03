@@ -1,0 +1,33 @@
+a:hover{
+    font-size: 15pt;
+}
+body{
+    margin: 0;
+    font-family: 'Caesar Dressing', cursive;
+}
+
+
+header{
+    background-image: url(../img/meme-capa.jpg);
+    height: 900px;
+}
+nav{
+    background-color: aquamarine;
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+}
+
+section{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section img{
+    height: 250;
+}
+section img:nth-child(3):hover{
+    width: 100%;
+}
